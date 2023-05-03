@@ -146,6 +146,7 @@
             <div class="col-lg-7 ">
                 <input class="w-50 shadow rounded mt-4" type="text" id="inp" placeholder="Search Your Location here"> 
                  <button id="aa" class="bg-primary text-light" onclick="getdata()">Search</button>
+                 <input type="textgg">
                  <div id="displ"></div>
                  <div id="disp"></div>
                  <div id="dis"></div>
@@ -203,7 +204,7 @@
     <script>
         const getdata=async()=> {
         cityname = inp.value
-        console.log(cityname);
+        // console.log(cityname);
         var apikey = "ee26ec43891666e8d4e8069a734cddff"
         let url3='https://api.openweathermap.org/data/2.5/weather?q=' + cityname + '&appid=' + apikey
         let response =await fetch(url3)
@@ -225,7 +226,7 @@
         `
         myTable.innerHTML =`
         <tr>
-             <td>Location <span id="pan"> ${convertRes.name}</td>, <td>${convertRes.sys.country}</td></span>
+             <td>Location <span id="pan"> ${convertRes.name}</td>, <td>${convertRes.sys.country}</span></td>
         </tr>
         `
         dis.innerHTML =`
