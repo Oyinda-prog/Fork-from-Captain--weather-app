@@ -1,4 +1,4 @@
-@media (max-width:600px){
+@media (max-width:500px){
     #body{
         background-image: url(./image/sunBg.13378c1945b2be657095.jpg);
         background-repeat: no-repeat;
@@ -9,55 +9,55 @@
         font-size: 10px;
         color: white;
         margin-top: 50px;
-        margin-left: 10px;
+        /* margin-left: 10px; */
     
     }
     #myTable1{
         font-size: 10px;
         color: white;
         margin-top: 30px;
-        margin-left: 10px;
+        /* margin-left: 10px; */
         
     }
     #myTable2{
         font-size: 10px;
         color: white;
         margin-top: 30px;
-        margin-left: 10px;
+        /* margin-left: 10px; */
         
     }
     #myTable3{
         font-size: 10px;
         color: white;
         margin-top: 30px;
-        margin-left: 10px;
+        /* margin-left: 10px; */
         
     }
     #myTable4{
         font-size: 10px;
         color: white;
         margin-top: 30px;
-        margin-left: 10px;
+        /* margin-left: 10px; */
         
     }
     #myTable5{
         font-size: 10px;
         color: white;
         margin-top: 30px;
-        margin-left: 10px;
+        /* margin-left: 10px; */
     }
     #myTable6{
         font-size: 10px;
         color: white;
         margin-top: 30px;
-        margin-left: 10px;
+        /* margin-left: 10px; */
        
     }
     #myTable7{
         font-size: 10px;
         color: white;
         margin-top: 30px;
-        margin-left: 10px;
+        /* margin-left: 10px; */
      
     }
     #spa{

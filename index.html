@@ -203,7 +203,7 @@
     <script>
         const getdata=async()=> {
         cityname = inp.value
-        console.log(cityname);
+        // console.log(cityname);
         var apikey = "ee26ec43891666e8d4e8069a734cddff"
         let url3='https://api.openweathermap.org/data/2.5/weather?q=' + cityname + '&appid=' + apikey
         let response =await fetch(url3)
@@ -225,7 +225,7 @@
         `
         myTable.innerHTML =`
         <tr>
-             <td>Location <span id="pan"> ${convertRes.name}</td>, <td>${convertRes.sys.country}</td></span>
+             <td>Location <span id="pan"> ${convertRes.name}</td>, <td>${convertRes.sys.country}</span></td>
         </tr>
         `
         dis.innerHTML =`
